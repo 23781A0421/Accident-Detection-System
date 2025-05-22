@@ -31,7 +31,7 @@ Setup Instructions:
 
 ### 1. Discord Webhook Setup
 - Create a server → Channel → Integrations → New Webhook
-- Copy Webhook URL and paste it in `crash_detection_esp8266_code.ino` or simulation code.
+- Copy Webhook URL and paste it in `accident_detection_esp8266_code.ino` or simulation code.
 
 ### 2. ThingSpeak Setup
 - Create an account → New Channel
@@ -39,7 +39,7 @@ Setup Instructions:
 
 ### 3. Wokwi Simulation (ESP32)
 - Go to [Wokwi](https://wokwi.com/projects/431580179335709697)
-- Use `diagram.json` and `crash_detection_esp32_code.ino`
+- Use `diagram.json` and `accident_detection_esp32_code.ino`
 - Simulate crash by adjusting acceleration
 - Test Discord and ThingSpeak output
 
